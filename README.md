@@ -15,7 +15,7 @@ pip install -e simulation_database
 Install this package:
 
 ```bash
-git clone ...
+git clone git@github.com:andrejberg/simulation_database_dashboard.git
 pip install -e simulation_database_dashboard
 ```
 
