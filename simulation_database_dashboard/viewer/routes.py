@@ -1,7 +1,7 @@
 from simulation_database_dashboard.viewer import blueprint
 from flask import render_template, current_app, request
-import simulation_database.databaseAPI as api
-from simulation_database.databaseModel import *
+import simdb.databaseAPI as api
+from simdb.databaseModel import *
 import itertools, json, os
 import pandas as pd
 
